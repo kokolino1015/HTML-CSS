@@ -1,0 +1,21 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+ul, li, nav {
+    display: inline-block;
+    list-style-type: "none";
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+div {
+    display: inline-block;
+    font-size: 40px;
+    margin-right: 80px;
+    font-weight: bold;
+}
