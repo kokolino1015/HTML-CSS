@@ -1,73 +1,49 @@
-html {
-  box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
 .container {
-  height: 70vh;
+    max-width: 65vw;
+    display: flex;
 }
 
-div,
-section {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  height: 100%;
+.container section {
+    display: flex;
+    align-items: center;
+    /*text-align: center;*/
 }
 
-div {
-  max-width: 65vw;
+.container .item {
+    border: 1px solid black;
+    padding: 12px;
+    display: block;
 }
 
-span {
-  border: 1px solid black;
-  text-align: center;
-  height: 17.2vh;
+.container .week {
+    width: 75%;
+    flex-wrap: wrap;
 }
 
-.week {
-  flex-basis: 70%;
+.container .week .item {
+    width: 20%;
 }
 
-.wide {
-  flex: 5 1 100%;
-  border-left: 2px solid black;
+.container .week .item:nth-child(1),
+.container .week .item:nth-child(7) {
+    width: 100%;
 }
 
-.days {
-  flex: 1 1 15%;
+.container .week .item:nth-child(8),
+.container .week .item:nth-child(9) {
+    width: 50%;
 }
 
-.week span:nth-child(8),
-.week span:nth-child(9) {
-  border-bottom: 2px solid black;
+.container .notes {
+    width: 25%;
+    flex-direction: column;
 }
 
-.week span:nth-child(1) {
-  border-top: 2px solid black;
-}
-
-.week span:nth-child(2),
-.week span:nth-child(8) {
-  border-left: 2px solid black;
-}
-
-.notes {
-  flex-basis: 30%;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.notes span {
-  flex: 1 1 auto;
-  width: 70%;
-}
-
-.notes span:nth-child(1) {
-  border-top: 2px solid black;
-  border-right: 2px solid black;
-}
-
-.notes span:nth-child(2) {
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
+.container .notes .item {
+    width: 100%;
+    height: 50%;
 }
