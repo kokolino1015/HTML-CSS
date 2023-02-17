@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="card-form">
+    <form action="POST">
+        <h1>REGISTRATION FORM</h1>
+        <div class="names">
+            <div class="names-div first">
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name"/>
+            </div>
+            <div class="names-div last">
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name"/>
+            </div>
+        </div>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"/>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"/>
+
+        <label for="confirm-password">Confirm Password</label>
+        <input
+                type="confirm-password"
+                name="confirm-password"
+                id="confirm-password"
+        />
+        <div class="check">
+            <input type="checkbox" name="checkbox" id="checkbox" disabled=""/>
+            <label for="checkbox" class="checkbox">
+                I accept the Terms of Use & Privacy Policy</label>
+        </div>
+
+        <button type="button">REGISTER NOW</button>
+    </form>
+</div>
+</body>
+</html>

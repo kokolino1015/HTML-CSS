@@ -1,0 +1,32 @@
+html{
+
+}
+p{
+    font-family: Robto, serif;
+}
+h1{
+    font-family: Abril Fatface, sans-serif;
+}
+header{
+    display: flex;
+    width: 80vw;
+    height: 100vh;
+    align-items: center;
+    margin: auto;
+}
+header img{
+    display: flex;
+}
+header .content{
+    width:12vw;
+    height: 20vh;
+    position: absolute;
+    display: flex;
+    top:4%;
+    left:12%;
+    flex-wrap: wrap;
+    box-shadow: 9px 9px 9px 9px rgba(86, 86, 86, 0.626)
+}
+.content .title h1{
+    width: 15vw;
+}
