@@ -1,32 +1,258 @@
-html{
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.3.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+html {
+    box-sizing: border-box;
 }
-p{
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+p {
     font-family: Robto, serif;
 }
-h1{
+
+h1 {
     font-family: Abril Fatface, sans-serif;
 }
-header{
-    display: flex;
-    width: 80vw;
+
+/*Header*/
+.header {
     height: 100vh;
-    align-items: center;
-    margin: auto;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
 }
-header img{
-    display: flex;
+
+.header-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
-header .content{
-    width:12vw;
-    height: 20vh;
+
+.logo,
+.intro {
     position: absolute;
-    display: flex;
-    top:4%;
-    left:12%;
-    flex-wrap: wrap;
-    box-shadow: 9px 9px 9px 9px rgba(86, 86, 86, 0.626)
 }
-.content .title h1{
-    width: 15vw;
+
+.logo {
+    width: 24%;
+    height: 24%;
+    top: 2%;
+    left: 3%;
+    border: 1px solid #7E7C7C;
+    box-shadow: 5px 5px 10px 0px #7E7C7C;
+}
+
+.logo-content {
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    top: 10%;
+    left: 8%;
+}
+
+.header-container {
+    background-color: transparent;
+}
+
+h1,
+h3 {
+    font-family: "Abril Fatface", cursive;
+}
+
+.line {
+    border-bottom: 2px solid white;
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 8px;
+    color: rgb(51, 52, 55);
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.logo h2 {
+    font-size: 22px;
+}
+
+.intro {
+    width: 28%;
+    height: 35%;
+    bottom: 38%;
+    right: 3%;
+    background: linear-gradient(to right, #97928f 0%, #c7c2bf 39%, rgb(206 203 200) 100%);
+    box-shadow: 5px 5px 10px 0px #7E7C7C;
+}
+
+.intro-text {
+    position: absolute;
+    top: 83%;
+    left: 30px;
+    font-size: 24px;
+    color: white;
+    text-shadow: 1px 1px 0 #333, 21px 17px 8px rgba(50, 50, 50, 0);
+    text-align: right;
+    padding-right: 5%;
+}
+
+.quotes {
+    position: relative;
+    top: 29px;
+    text-align: right;
+    color: #8c8480;
+    font-size: 86px;
+    padding-right: 5%;
+}
+
+.intro-container {
+    position: relative;
+}
+
+.quotes-container {
+    position: relative;
+}
+
+/*Main*/
+main {
+    display: flex;
+    background-color: #f2f0f3;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.services-title {
+    font-size: 68px;
+    margin-top: 90px;
+
+}
+
+.services {
+    width: 43vw;
+    height: 70vh;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+}
+
+.services li p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.services li:nth-child(4) p {
+    margin-bottom: 0;
+}
+
+/*Aside */
+
+.aside {
+    background-color: #bab1ad;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aside div {
+    margin-left: 20px;
+}
+
+p.big {
+    margin-top: 70px;
+    color: #f4f2f2;
+    font-size: 150px;
+}
+
+p.small {
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: #333333;
+}
+
+/*Contact*/
+.contact {
+    margin-top: 100px;
+}
+
+.contact-title, .contact-list, form {
+    margin-left: 100px;
+}
+
+.contact-title {
+    font-size: 68px;
+    margin-bottom: 20px;
+}
+
+.contact-list {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.contact-line {
+    border: 2px solid #808080;
+    height: 1px;
+    margin-left: 0;
+    width: 100%;
+}
+
+.contact-item {
+    font-style: italic;
+}
+
+.contact-list li {
+    padding-right: 4%;
+}
+/* form */
+form {
+  margin-top: 40px;
+}
+
+input {
+  background-color: rgb(186, 177, 173);;
+  padding: 12px 15px;
+}
+
+input,
+label {
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+label {
+  background-color: rgb(97, 115, 74);
+  padding: 12px 24px;
 }

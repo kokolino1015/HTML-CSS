@@ -1,0 +1,74 @@
+@media (max-width: 601px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbar-light .navbar-brand {
+        margin-right: 0;
+    }
+
+    .hero img {
+        display: none;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .container h1 {
+        margin-top: 50px;
+    }
+
+    .container p {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .hero-btns {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .hero-btns a:first-child {
+        width: 60%;
+    }
+
+    .row {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-sm-6 {
+        text-align: left;
+        flex: 0 0 50%;
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .about {
+        margin-bottom: 100px;
+    }
+    .contact-btn{
+        display: none;
+    }
+    .contact-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .col-12 h6{
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .about h5{
+        margin-top: 60px;
+    }
+    .container h3{
+        text-align: center;
+        width: 60%;
+        margin-right: 0;
+        margin-left: 100px;
+    }
+}

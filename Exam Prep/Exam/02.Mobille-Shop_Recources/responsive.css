@@ -1,0 +1,119 @@
+@media (max-width: 601px) {
+    .home-navbar{
+        padding-top: 22.5px;
+        padding-bottom: 22.5px;
+    }
+    .home-left {
+        display: none;
+    }
+
+    .home-container01 {
+        display: none;
+    }
+
+    .home-right {
+        display: none;
+    }
+
+    .navbar-logo-title {
+        margin-left: 15px;
+    }
+
+    .home-hero1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-info {
+        justify-content: center;
+    }
+
+    .home-text12 {
+
+        text-align: center;
+    }
+
+    .home-container04 {
+        justify-content: center;
+    }
+
+    .home-btn-group {
+        justify-content: center;
+    }
+
+    .column {
+        padding-top: 40px;
+    }
+
+    .home-cards-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px
+    }
+
+    .category-card-category-card {
+        width: 47%;
+    }
+
+    .category-card-category-card img {
+        width: 270px;
+        height: 270px;
+    }
+
+    .section-container {
+        flex-direction: column;
+    }
+
+    .home-content {
+        margin-top: 50px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .home-text30 {
+        width: 100%;
+    }
+
+    .home-left4 .button {
+        margin-bottom: 40px;
+    }
+
+    .max-width-container {
+        padding: 0;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .home-container08 {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .blog-post-card-blog-post-card {
+        margin-right: 160px;
+    }
+    .home-container08 .blog-post-card-image{
+        width: 140%;
+    }
+    .home-main{
+        padding-bottom: 60px;
+    }
+
+    .home-footer1 {
+        margin-left: 40px;
+        flex-direction: column-reverse;
+        padding-top: 60px;
+        padding-bottom: 20px;
+
+    }
+
+    .home-links-container {
+        flex-direction: column;
+    }
+
+    .home-container09 {
+        margin-top: 60px;
+    }
+}

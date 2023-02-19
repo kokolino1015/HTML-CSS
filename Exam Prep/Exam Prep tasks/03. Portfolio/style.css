@@ -1,0 +1,230 @@
+body {
+    font-family: Raleway, sans-serif;
+    color: #222222;
+    background-color: #222222;
+}
+
+section {
+    display: flex;
+    margin: 40px;
+    width: 95vw;
+    height: 95vh;
+    background-color: #efefef;
+}
+
+/* First */
+.first {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first .navigation {
+    font-size: 26px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 50px;
+    align-items: center;
+    gap: 10px;
+}
+
+.first .content {
+    margin-top: 125px;
+    width: 30%;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.first .content h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+p {
+    font-style: italic;
+    width: 100%;
+    line-height: 2rem;
+    font-size: 18px;
+    word-spacing: 0.3rem;
+}
+
+.first .content .divider {
+    border: 1px solid #252525;
+    width: 1px;
+    height: 100px;
+    margin-top: 40px;
+}
+
+.first .hero {
+    width: 50%;
+}
+
+/* Second */
+.second .camera {
+    margin-left: 80px;
+    height: 60%;
+    width: 50%;
+    margin-top: 180px;
+}
+
+.second .content {
+    margin-top: 150px;
+    width: 55%;
+    margin-left: 100px;
+    margin-right: 250px;
+}
+
+.second .title {
+    display: flex;
+    align-items: center;
+}
+
+.second .divider-vertical {
+    margin-top: 110px;
+    border: 1px solid #252525;
+    margin-bottom: 70px;
+    height: 1px;
+    width: 100px;
+}
+
+.second h1 {
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.second ul {
+    margin-top: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.second .socials {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.second .socials .social {
+    width: 3rem;
+    height: 3rem;
+    background-color: #909090;
+    color: white;
+    position: relative;
+}
+.second .socials .social i {
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.third .content {
+    margin-top: 300px;
+    width: 30%;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.third .content h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+.third .content .divider {
+    border: 1px solid #252525;
+    width: 1px;
+    height: 100px;
+    margin-top: 40px;
+}
+
+.third .featured {
+    margin-top: 200px;
+    width: 100%;
+}
+.third .img{
+    width: 50%;
+}
+.forth ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.forth .picture{
+    width: 40%;
+}
+.forth .picture-big{
+    width: 80%;
+}
+.fifth{
+    flex-wrap: wrap;
+    text-align: center;
+}
+.fifth .description{
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.fifth .description h1{
+    margin-top: 100px;
+}
+.fifth .description h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+.fifth .form {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-areas:
+    "email subject"
+    "msg msg"
+    "submit submit";
+}
+
+.fifth .form input,
+.fifth .form textarea {
+  background: transparent;
+  border: 1px solid #222222;
+  padding: 0.25rem;
+  width: 100%;
+}
+
+.fifth .form textarea {
+  resize: none;
+}
+
+.fifth .form .email {
+  grid-area: email;
+}
+.fifth .form .subject {
+  grid-area: subject;
+}
+.fifth .form .msg {
+  grid-area: msg;
+}
+
+.fifth .form .btn {
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #222222;
+  background-color: #222222;
+  color: white;
+  grid-area: submit;
+    margin-bottom: 150px;
+}
+.fifth h3{
+
+}
